@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //MARK: - IBOutlet
+    @IBOutlet weak var counterLable: UILabel!
+    
+    private var score = 0
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    //MARK: - IBAction
+    @IBAction func tappedAddButton(_ sender: UIButton) {
+        score += 1
+        counterLable.text = String(score)
     }
-
-
 }
 

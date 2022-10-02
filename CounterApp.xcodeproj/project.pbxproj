@@ -56,15 +56,31 @@
 		AF0AC86728E99EE90016D239 /* CounterApp */ = {
 			isa = PBXGroup;
 			children = (
-				AF0AC86828E99EE90016D239 /* AppDelegate.swift */,
-				AF0AC86A28E99EE90016D239 /* SceneDelegate.swift */,
+				AF4854B628E9FCD400F88AC2 /* Delegate */,
 				AF0AC86C28E99EE90016D239 /* ViewController.swift */,
-				AF0AC86E28E99EE90016D239 /* Main.storyboard */,
+				AF4854B728E9FCEE00F88AC2 /* Storyboard */,
 				AF0AC87128E99EEB0016D239 /* Assets.xcassets */,
-				AF0AC87328E99EEB0016D239 /* LaunchScreen.storyboard */,
 				AF0AC87628E99EEB0016D239 /* Info.plist */,
 			);
 			path = CounterApp;
+			sourceTree = "<group>";
+		};
+		AF4854B628E9FCD400F88AC2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AF0AC86828E99EE90016D239 /* AppDelegate.swift */,
+				AF0AC86A28E99EE90016D239 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AF4854B728E9FCEE00F88AC2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AF0AC86E28E99EE90016D239 /* Main.storyboard */,
+				AF0AC87328E99EEB0016D239 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
