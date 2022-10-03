@@ -10,35 +10,31 @@ import UIKit
 class ViewController: UIViewController {
     
     //MARK: - IBOutlet
-    @IBOutlet weak var countLable: UILabel!
-    @IBOutlet var buttonPlusAndMinus: [UIButton]!
     
-    //MARK: - Private property
+    @IBOutlet weak private var countLable: UILabel!
+    @IBOutlet private var buttonPlusAndMinus: [UIButton]!
+    
+    // MARK: - Private Properties
+    
     private var score = 0
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupButtonUI()
-    
     }
     
-    //MARK: - IBAction
-    @IBAction func pressedOnButton(_ sender: UIButton) {
-        switch sender.tag {
-        case 0 :
-            increment()
-        case 1 :
-            decrement()
-         
-        default:
-           fatalError()
-        }
+    // MARK: - IBAction
+    
+    @IBAction private func incrementCounterButton() {
+        increment()
     }
     
-    //MARK: - Private func
+    @IBAction private func decrementCounterButton() {
+        decrement()
+    }
+    
+    // MARK: - Private Methods
+    
     private func setupButtonUI() {
         buttonPlusAndMinus.forEach{ button in
             button.layer.cornerRadius = 40
@@ -52,11 +48,10 @@ class ViewController: UIViewController {
     }
     
     private func decrement(){
-        if score <= 0 {
+        switch score {
+        case ...0:
             showAlert()
-            score = 0
-            countLable.text = String(score)
-        } else {
+        default:
             score -= 1
             countLable.text = String(score)
         }
