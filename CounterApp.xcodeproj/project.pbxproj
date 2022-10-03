@@ -13,7 +13,7 @@
 		AF0AC87028E99EE90016D239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0AC86E28E99EE90016D239 /* Main.storyboard */; };
 		AF0AC87228E99EEB0016D239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0AC87128E99EEB0016D239 /* Assets.xcassets */; };
 		AF0AC87528E99EEB0016D239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0AC87328E99EEB0016D239 /* LaunchScreen.storyboard */; };
-		AF4854B128E9F62000F88AC2 /* AlertExtensionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4854B028E9F62000F88AC2 /* AlertExtensionVC.swift */; };
+		AF4854B128E9F62000F88AC2 /*  ViewController+showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4854B028E9F62000F88AC2 /*  ViewController+showAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		AF0AC87128E99EEB0016D239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF0AC87428E99EEB0016D239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF0AC87628E99EEB0016D239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF4854B028E9F62000F88AC2 /* AlertExtensionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtensionVC.swift; sourceTree = "<group>"; };
+		AF4854B028E9F62000F88AC2 /*  ViewController+showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ViewController+showAlert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				AF0AC86C28E99EE90016D239 /* ViewController.swift */,
-				AF4854B028E9F62000F88AC2 /* AlertExtensionVC.swift */,
+				AF4854B028E9F62000F88AC2 /*  ViewController+showAlert.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 				AF0AC86D28E99EE90016D239 /* ViewController.swift in Sources */,
 				AF0AC86928E99EE90016D239 /* AppDelegate.swift in Sources */,
 				AF0AC86B28E99EE90016D239 /* SceneDelegate.swift in Sources */,
-				AF4854B128E9F62000F88AC2 /* AlertExtensionVC.swift in Sources */,
+				AF4854B128E9F62000F88AC2 /*  ViewController+showAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

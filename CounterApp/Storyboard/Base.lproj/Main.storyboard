@@ -62,7 +62,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="pressedOnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Fc-ua-9rt"/>
+                                                            <action selector="decrementCounterButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="AYU-Hv-dnY"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9l-mW-j8c">
@@ -74,7 +74,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="50"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="pressedOnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GaI-Hk-O3N"/>
+                                                            <action selector="incrementCounterButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="jBd-Ym-bG1"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
