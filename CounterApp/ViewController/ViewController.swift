@@ -8,10 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     //MARK: - IBOutlet
+    
     @IBOutlet weak private var countLable: UILabel!
     @IBOutlet private var buttonPlusAndMinus: [UIButton]!
+    
     // MARK: - Private Properties
+    
     private var score = 0
 
     override func viewDidLoad() {
@@ -20,6 +24,7 @@ class ViewController: UIViewController {
     }
     
     // MARK: - IBAction
+    
     @IBAction private func incrementCounterButton() {
         increment()
     }
@@ -29,6 +34,7 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Private Methods
+    
     private func setupButtonUI() {
         buttonPlusAndMinus.forEach{ button in
             button.layer.cornerRadius = 40
