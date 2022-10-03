@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     private func decrement(){
         switch score {
-        case ...0 :
+        case ...0:
             showAlert()
         default:
             score -= 1
@@ -51,7 +51,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
-
-
-
